@@ -72,22 +72,3 @@ TheMoWallpaperChanger/├── main.py                 # Main entry point of th
     * **Common Controls:**
         * Select a "Wallpaper Style" from the dropdown.
         * Click "Set as Wallpaper" to apply the currently previewed image.
-
-## Future Enhancements (Potential Ideas)
-
-* **Cross-Platform Support:** Investigate and implement wallpaper setting methods for macOS and Linux.
-* **Advanced Pixabay Filters:** Allow users to use more Pixabay API filters (e.g., category, orientation, color).
-* **Video Wallpapers:** Integrate Pixabay's video API for animated wallpapers (would require a video player component).
-* **Multiple API Sources:** Add support for other free image APIs (e.g., Unsplash, Pexels).
-* **Favorites/History:** Allow users to save favorite wallpapers or view a history of set wallpapers.
-* **Configuration File:** Move API keys and other settings to an external configuration file.
-* **Asynchronous Thumbnail Loading:** Implement `QThread` for smoother loading of many online image thumbnails to prevent UI lag.
-* **Customizable UI Themes:** Allow users to change the application's appearance.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (if you choose to add one).
-
----
-
-*Generated for TheMo Desktop Wallpaper Changer project.*
