@@ -37,7 +37,7 @@ TheMoWallpaperChanger/├── main.py                 # Main entry point of th
 
 1.  **Clone the Repository (or download the files):**
     ```bash
-    git clone <your-repository-url>
+    git clone [<your-repository-url>](https://github.com/kumar-jit/themo)
     cd TheMoWallpaperChanger
     ```
 
@@ -51,7 +51,7 @@ TheMoWallpaperChanger/├── main.py                 # Main entry point of th
     The application uses the Pixabay API to fetch online images. The API key is currently hardcoded in `api_handler.py`:
     ```python
     # TheMoWallpaperChanger/api_handler.py
-    PIXABAY_API_KEY = "50316370-ada398d289a6bffb2e36f55aa"
+    PIXABAY_API_KEY = "****************************"
     ```
     This is a public key provided in the Pixabay API documentation for testing/example purposes. For more extensive use or if you encounter rate limits, you might want to register for your own free API key at [Pixabay](https://pixabay.com/api/docs/) and replace the existing one.
 
