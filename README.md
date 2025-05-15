@@ -28,11 +28,6 @@ TheMo is a Python-based desktop application for Windows that allows users to cha
 * **Requests:** For making HTTP requests to the Pixabay API and downloading images.
 * **Operating System:** Windows (due to reliance on `ctypes` and `winreg` for wallpaper manipulation).
 
-## Project Structure
-
-The project is organized into several Python files for better maintainability:
-
-TheMoWallpaperChanger/├── main.py                 # Main entry point of the application├── app_window.py           # Core application class, UI layout, and main event handling├── ui_components.py        # Custom UI widgets (e.g., ImageCardWidget for Pixabay results)├── api_handler.py          # Handles communication with the Pixabay API├── wallpaper_utils.py      # Utility functions for setting wallpaper and scanning local folders└── README.md               # This file
 ## Setup and Usage
 
 1.  **Clone the Repository (or download the files):**
@@ -72,3 +67,7 @@ TheMoWallpaperChanger/├── main.py                 # Main entry point of th
     * **Common Controls:**
         * Select a "Wallpaper Style" from the dropdown.
         * Click "Set as Wallpaper" to apply the currently previewed image.
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/49a52656-9dbf-42b5-867f-b2abfd73eb25)
+
